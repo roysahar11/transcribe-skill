@@ -101,6 +101,10 @@ Transcription accuracy depends heavily on audio conditions:
 
 For video editing, ~80% accuracy is usually sufficient to identify key moments and timestamps. Verify exact wording by listening when making precise cuts.
 
+## Case-specific benchmarks
+
+Before estimating how long a transcription will take, or choosing between the full and turbo ivrit-ai models, read [references/benchmarks-m4-hebrew-room-livestreams.md](references/benchmarks-m4-hebrew-room-livestreams.md). It records measurements from one job (Hebrew multi-speaker room livestreams on an Apple M4, November 2026): speed per model and setting, turbo-vs-full accuracy, and practical lessons (cutting dead air, VAD, download issues). Treat them as a planning prior, not a general rule; re-measure with a 5-minute test clip when the setup differs.
+
 ## Batch Transcription
 
 To transcribe all videos in a directory:
